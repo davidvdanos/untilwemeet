@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown to 12 May 2026</title>
+    <meta
+      name="description"
+      content="A minimal romantic countdown page counting down to 12 May 2026, 19:30 Greece local time."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-blur blur-one"></div>
+    <div class="background-blur blur-two"></div>
+
+    <main class="page">
+      <section class="card" aria-labelledby="page-title">
+        <p class="eyebrow">A quiet little countdown</p>
+        <h1 id="page-title">Counting down to the moment</h1>
+        <p class="subtitle">12 May 2026 · 19:30 · Greece local time</p>
+
+        <div class="countdown" aria-live="polite" aria-atomic="true">
+          <div class="time-block">
+            <span id="days" class="time-value">000</span>
+            <span class="time-label">Days</span>
+          </div>
+          <div class="time-block">
+            <span id="hours" class="time-value">00</span>
+            <span class="time-label">Hours</span>
+          </div>
+          <div class="time-block">
+            <span id="minutes" class="time-value">00</span>
+            <span class="time-label">Minutes</span>
+          </div>
+          <div class="time-block">
+            <span id="seconds" class="time-value">00</span>
+            <span class="time-label">Seconds</span>
+          </div>
+        </div>
+
+        <p id="status-message" class="message">Every second brings it a little closer.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
-const TARGET_GREECE_LOCAL = '2026-05-12T19:30:00+03:00';
-const targetDate = new Date(TARGET_GREECE_LOCAL).getTime();
+const TARGET_LOCAL_DATETIME = '2026-05-12T19:30:00+03:00';
+const targetDate = new Date(TARGET_LOCAL_DATETIME).getTime();
 
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');

@@ -5,7 +5,7 @@ A minimal romantic countdown page built as a static site for GitHub Pages.
 ## Target date
 
 - **12 May 2026**
-- **19:30 Greece local time**
+- **19:30**
 
 ## Files
 
